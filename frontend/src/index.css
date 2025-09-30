@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global font */
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Hide scrollbars globally */
+::-webkit-scrollbar {
+    display: none;
+}
+* {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Active navigation item underline */
+.active hr {
+    @apply block;
+}
+
+@media (max-width: 740px) {
+    .active p {
+        @apply text-white bg-gradient-to-r from-blue-600 via-teal-500 to-indigo-600 rounded;
+    }
+}
+
+/* Button styles */
+button {
+    @apply transition duration-300 ease-in-out rounded-full shadow-sm;
+}
+button:hover {
+    @apply shadow-lg;
+}
+
+/* Card styles */
+.card {
+    @apply bg-white border border-blue-200 rounded-xl shadow-lg transition transform duration-300;
+}
+.card:hover {
+    @apply shadow-2xl -translate-y-2;
+}
+
+/* Smooth hover transitions */
+.hover-smooth {
+    @apply transition-transform duration-300 ease-in-out;
+}
+
+/* Responsive container */
+.container {
+    @apply mx-4 sm:mx-[10%];
+}
