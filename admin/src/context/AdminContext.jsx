@@ -7,7 +7,7 @@ export const AdminContext = createContext()
 
 const AdminContextProvider = (props) => {
 
-    const backendUrl="https://mediconnect-backend-tmwr.onrender.com";
+    const backendUrl="https://mediconnect-final.onrender.com";
 
     const [aToken, setAToken] = useState(localStorage.getItem('aToken') ? localStorage.getItem('aToken') : '')
 
