@@ -56,7 +56,11 @@ https://mediconnect-final-admin.onrender.com
 
 <img width="1719" height="784" alt="Screenshot 2025-11-21 174652" src="https://github.com/user-attachments/assets/45215a9e-4d51-4553-a60a-689166fa27d9" />
 
+<img width="1861" height="877" alt="Screenshot 2025-11-21 180442" src="https://github.com/user-attachments/assets/b2126b87-82ac-48e6-b144-89e9b8d9b33e" />
 
+<img width="1634" height="791" alt="Screenshot 2025-11-21 180511" src="https://github.com/user-attachments/assets/2fd8e6fe-33cc-4ef8-932d-d498d235a606" />
+
+<img width="1885" height="871" alt="Screenshot 2025-11-21 175922" src="https://github.com/user-attachments/assets/a9470045-108a-4d75-98fd-43c51f53798d" />
 
 <h2>🛠 Tech Stack</h2>
 <ul>
